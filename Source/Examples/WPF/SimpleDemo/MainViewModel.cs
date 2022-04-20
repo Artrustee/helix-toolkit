@@ -29,10 +29,12 @@ namespace SimpleDemo
 
             // Create a mesh builder and add a box to it
             var meshBuilder = new MeshBuilder(false, false);
-            meshBuilder.AddBox(new Point3D(0, 0, 1), 1, 2, 0.5);
-            meshBuilder.AddBox(new Rect3D(0, 0, 1.2, 0.5, 1, 0.4));
+            //meshBuilder.AddBox(new Point3D(0, 0, 1), 1, 2, 0.5);
+            //meshBuilder.AddBox(new Rect3D(0, 0, 1.2, 0.5, 1, 0.4));
+            meshBuilder.AddBox(new Rect3D(0, 0, 0, 3.3, 10, 5.5));
 
             // Create a mesh from the builder (and freeze it)
+            //var mesh = meshBuilder.ToMesh(false);
             var mesh = meshBuilder.ToMesh(true);
 
             // Create some materials
@@ -43,8 +45,8 @@ namespace SimpleDemo
 
             // Add 3 models to the group (using the same mesh, that's why we had to freeze it)
             modelGroup.Children.Add(new GeometryModel3D { Geometry = mesh, Material = greenMaterial, BackMaterial = insideMaterial });
-            modelGroup.Children.Add(new GeometryModel3D { Geometry = mesh, Transform = new TranslateTransform3D(-2, 0, 0), Material = redMaterial, BackMaterial = insideMaterial });
-            modelGroup.Children.Add(new GeometryModel3D { Geometry = mesh, Transform = new TranslateTransform3D(2, 0, 0), Material = blueMaterial, BackMaterial = insideMaterial });
+            modelGroup.Children.Add(new GeometryModel3D { Geometry = mesh, Transform = new TranslateTransform3D(-6, 0, 0), Material = redMaterial, BackMaterial = insideMaterial });
+            modelGroup.Children.Add(new GeometryModel3D { Geometry = mesh, Transform = new TranslateTransform3D(12, 0, 0), Material = blueMaterial, BackMaterial = insideMaterial });
 
             // Set the property, which will be bound to the Content property of the ModelVisual3D (see MainWindow.xaml)
             this.Model = modelGroup;

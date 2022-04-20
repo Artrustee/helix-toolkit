@@ -111,7 +111,7 @@ namespace SimpleDemo
             // model trafos
             Model1Transform = new Media3D.TranslateTransform3D(0, 0, 0);
             Model2Transform = new Media3D.TranslateTransform3D(-2, 0, 0);
-            Model3Transform = new Media3D.TranslateTransform3D(+2, 0, 0);
+            Model3Transform = new Media3D.TranslateTransform3D(+2, -1, 0);
             Model4Transform = new Media3D.TranslateTransform3D(-8, 0, -5);
 
             // model materials

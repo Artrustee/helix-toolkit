@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.352
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixToolkit.Wpf.Tests", "HelixToolkit.Wpf.Tests\HelixToolkit.Wpf.Tests.csproj", "{F8082D12-91E7-403F-9294-9A7C2040B049}"
 EndProject
@@ -172,6 +172,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicPointsAndLines", "Examples\SharpDX.Core\DynamicPointsAndLines\DynamicPointsAndLines.csproj", "{8C4CBD6D-0321-4BD5-9B9D-C1C39D362D97}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelixToolkit.WinUI", "HelixToolkit.WinUI\HelixToolkit.WinUI.csproj", "{546D47F6-72E9-44BD-8686-B36C61B6F88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDemo2", "Examples\WPF.SharpDX\SimpleDemo2\SimpleDemo2.csproj", "{2714128A-C860-43C9-B232-7DA57EE85A2D}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -1513,6 +1515,26 @@ Global
 		{546D47F6-72E9-44BD-8686-B36C61B6F88D}.Release|x64.Build.0 = Release|Any CPU
 		{546D47F6-72E9-44BD-8686-B36C61B6F88D}.Release|x86.ActiveCfg = Release|Any CPU
 		{546D47F6-72E9-44BD-8686-B36C61B6F88D}.Release|x86.Build.0 = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|x64.Build.0 = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|ARM.Build.0 = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|ARM64.Build.0 = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|x64.Build.0 = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{2714128A-C860-43C9-B232-7DA57EE85A2D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1594,6 +1616,7 @@ Global
 		{ABD27897-4EE8-415B-9D8D-FFE7836F9B97} = {5730542A-FBE8-4176-B8C4-7FF801B27E99}
 		{8C4CBD6D-0321-4BD5-9B9D-C1C39D362D97} = {B025344D-2B79-4456-9668-F4950BCA498F}
 		{546D47F6-72E9-44BD-8686-B36C61B6F88D} = {5730542A-FBE8-4176-B8C4-7FF801B27E99}
+		{2714128A-C860-43C9-B232-7DA57EE85A2D} = {8DB21D26-08EA-4A24-BDE8-FFE08F2C30EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDED8F31-C7C8-41E4-ACAC-293F326BAE9F}

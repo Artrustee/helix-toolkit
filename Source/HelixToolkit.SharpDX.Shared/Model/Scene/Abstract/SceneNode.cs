@@ -512,6 +512,7 @@ namespace HelixToolkit.UWP
             /// </summary>
             public SceneNode()
             {
+                //每次渲染都会跑这里
                 WrapperSource = this;
                 renderCore = new Lazy<RenderCore>(() =>
                 {

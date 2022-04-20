@@ -56,6 +56,7 @@ namespace HelixToolkit.Wpf.SharpDX
     [Localizability(LocalizationCategory.NeverLocalize)]
     public partial class Viewport3DX : Control, IViewport3DX, IDisposable
     {
+        // 视图
         /// <summary>
         /// The adorner layer part name.
         /// </summary>
@@ -275,6 +276,8 @@ namespace HelixToolkit.Wpf.SharpDX
                 typeof(Viewport3DX), new FrameworkPropertyMetadata(typeof(Viewport3DX)));
         }
 
+
+        //初始化视图，进入管线前的初始化
         /// <summary>
         /// Initializes a new instance of the <see cref="Viewport3DX" /> class.
         /// </summary>
