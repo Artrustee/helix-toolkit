@@ -85,9 +85,9 @@ namespace SimpleDemo
             DirectionalLightDirection = new Vector3D(-2, -5, -2);
 
             // floor plane grid
-            Grid = LineBuilder.GenerateGrid(new Vector3(0, 1, 0), -5, 5, -5, 5);
-            GridColor = Colors.Black;
-            GridTransform = new Media3D.TranslateTransform3D(0, -3, 0);
+            //Grid = LineBuilder.GenerateGrid(new Vector3(0, 1, 0), -5, 5, -5, 5);
+            //GridColor = Colors.Black;
+            //GridTransform = new Media3D.TranslateTransform3D(0, -3, 0);
 
             // scene model3d
             var b1 = new MeshBuilder();            
@@ -182,8 +182,8 @@ namespace SimpleDemo
             //    Padding = new System.Windows.Thickness(2), 
             //};
 
-            var background = Colors.Blue;
-            background.A = (byte)120;
+            //var background = Colors.Blue;
+            //background.A = (byte)120;
             //Billboard2Model = new BillboardSingleText3D()
             //{
             //    TextInfo = new TextInfo("Model 2", new Vector3(2, 1, 0)) { Angle = -(float)Math.PI / 3 },

@@ -574,6 +574,8 @@ namespace HelixToolkit.Wpf.SharpDX
             InvalidateRender();
         }
 
+
+        //类似于update，会一直在跑，检测当前帧的意思，应该是
         /// <summary>
         /// Tries to invalidate the current render.
         /// </summary>
@@ -787,10 +789,12 @@ namespace HelixToolkit.Wpf.SharpDX
             }
             else
             {
+                //添加需要渲染的对象
                 foreach (var item in Items)
                 {
                     partItemsControl.Items.Remove(item);
                 }
+                //为什么先删除再添加？
                 foreach (var item in Items)
                 {
                     partItemsControl.Items.Add(item);

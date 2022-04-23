@@ -21,7 +21,7 @@ namespace HelixToolkit.UWP
         using Render;
         using Shaders;
 
-
+        
         /// <summary>
         /// 
         /// </summary>
